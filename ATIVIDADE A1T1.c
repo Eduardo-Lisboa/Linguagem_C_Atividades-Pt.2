@@ -1,8 +1,14 @@
+//Universaidade Positivo - Londrina PR.
+
+//Alunos responsaveis pela criação do sistema -->
+
 //Arthur Bitencourt Silva
 //Eduardo Henrique lisboa alves
 //Gabriel Watanabe Pereira
 //João Vitor Bortoliero Silva
 //José Henrique Yudi Kiyuna
+
+/////////////////////////////////////////////////////////////////////////
 
 /*****
 DESENVOLVER A CODIFICAÇÃO EM LINGUAGEM CONFORME OS REQUISITOS ABAIXO. O RESULTADO 
@@ -53,7 +59,8 @@ int main(int argc, char const *argv[])
     int numero1 =0;
     int numero2 =0;
     int resultado =0;
-    //variaveis caso 2
+    
+     
     double desp1, desp2, desp3, desp4, somaDespesa, resto;
     double salario = 0;
    
@@ -145,33 +152,33 @@ int main(int argc, char const *argv[])
 
 
        
-        if ( num1%2 == 0 && num1%3==0 && num1%4 ==0 )
+        if ( num1%2 == 0 && num1%3== 0 && num1%4 == 0 )
         {
-           printf("Número %d é divisivel por 2,3 e 4. \n", num1);
+               printf("Número %d é divisivel por 2,3 e 4.\n", num1);
         } else
-            printf("O número %d não é divisel por 2, 3 e 4.\n", num1);
+               printf("O número %d não é divisel por 2, 3 e 4.\n", num1);
             
          
-        if ( num2%2 == 0 && num2%3==0 && num2%4 ==0 )
+        if ( num2%2 == 0 && num2%3== 0 && num2%4 == 0 )
         {
-           printf("Número %d é divisivel por 2,3 e 4. \n", num2);
+                printf("Número %d é divisivel por 2,3 e 4.\n", num2);
         } else
-            printf("O número %d não é divisel por 2, 3 e 4. \n", num2);
+               printf("O número %d não é divisel por 2, 3 e 4. \n", num2);
 
 
-         if ( num3%2 == 0 && num3%3==0 && num3%4 ==0 )
+         if ( num3%2 == 0 && num3%3== 0 && num3%4 == 0 )
         {
-           printf("Número %d é divisivel por 2,3 e 4. \n", num3);
+               printf("Número %d é divisivel por 2,3 e 4.\n", num3);
         } else
-            printf("O número %d não e divisel por 2, 3 e 4. \n", num3);
+               printf("O número %d não e divisel por 2, 3 e 4.\n", num3);
         
         break;
 
         
         default:
-         printf("---------------------------------------\n\n");
+        printf("---------------------------------------\n\n");
         printf(" Você não digitou nenhuma opção valida do menu!.\n");
-         printf("---------------------------------------\n\n");
+        printf("---------------------------------------\n\n");
         break;
     }
 
